@@ -18,9 +18,9 @@ Los servicios desplegados son
 
 ## DNS
 
-La configuración del dns se encuentra en el archivo *./dnsmasq.conf*. En este momento está dispuesto para que cualquier dirección lleve hacia 192.168.1.100 (dirección dentro de la intranet del router donde está la computadora que usaré como servidor). La línea específica de configuracion es:
+La configuración del dns se encuentra en el archivo *./dnsmasq.conf*. En este momento está dispuesto para que cualquier dirección lleve hacia 192.168.1.200 (dirección dentro de la intranet del router donde está la computadora que usaré como servidor). La línea específica de configuracion es:
 ```
-address=/#/192.168.1.100
+address=/#/192.168.1.200
 ```
 
 ## NGNIX
