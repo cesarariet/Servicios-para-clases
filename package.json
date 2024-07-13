@@ -1,0 +1,22 @@
+{
+  "name": "contenido_web_para_clases",
+  "version": "1.0.0",
+  "description": "## Resumen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "live-server ../html/"
+  },
+  "author": "Mario Estanislao Cesar Ariet",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "gulp": "^5.0.0",
+    "gulp-mathjax-node": "^1.1.1",
+    "gulp-replace": "^1.1.4",
+    "gulp-watch": "^5.0.1",
+    "live-server": "^1.2.2",
+    "mathjax-node": "^2.1.1"
+  }
+}
